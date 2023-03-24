@@ -15,7 +15,11 @@
 (git add .    git commit -m ‘BugReport: structure’   git push -u origin BugReports)
 
 5. Замержити гілку Bug Reports з гілкою main.
-(git checkout main,   git merge BugReports,   git push) 
+```bash
+git checkout main
+git merge BugReports
+git push
+```
 
 6. У гілці CheckLists створити структуру чек-листа.
 ( git checkout CheckLists,    touch CheckList.txt)
