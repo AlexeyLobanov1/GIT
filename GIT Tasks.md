@@ -1,15 +1,49 @@
 1. На локальному репозиторії створити гілки для:
-- Postman      (git checkout -b Postman)
-- Jmeter       (git checkout -b Jmeter)
-- CheckLists   (git checkout -b CheckLists)
-- Bug Reports  (git checkout -b BugReports)
-- SQL          (git checkout -b SQL)
-- Charles      (git checkout -b Charles)
-- Mobile testing  (git checkout -b Mobiletesting )
-2. Запушити всі гілки на віддалений репозиторій   (git push –all origin)
+- Postman    
+```bash 
+git checkout -b Postman
+```
+
+- Jmeter 
+```bash 
+git checkout -b Jmeter
+```
+
+- CheckLists
+```bash 
+git checkout -b CheckLists
+```
+
+- Bug Reports
+- ```bash 
+git checkout -b BugReports
+```
+
+- SQL
+```bash 
+git checkout -b SQL
+```
+
+- Charles
+```bash 
+git checkout -b Charles
+```
+
+- Mobile testing
+```bash 
+git checkout -b Mobiletesting 
+```
+
+2. Запушити всі гілки на віддалений репозиторій
+```bash 
+git push –all origin
+```
 
 3. У гілці Bug Reports створити текстовий документ txt зі структурою Баг Репорту.
-(git checkout BugReports , touch BugReport.txt)
+```bash 
+git checkout BugReports 
+touch BugReport.txt
+```
 
 4. Запушити структуру Баг Репорту на зовнішній репозиторій.
 ```bash
