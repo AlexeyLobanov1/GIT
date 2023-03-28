@@ -15,7 +15,7 @@ git checkout -b CheckLists
 ```
 
 - Bug Reports
-- ```bash 
+```bash 
 git checkout -b BugReports
 ```
 
